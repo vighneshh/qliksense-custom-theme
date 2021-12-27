@@ -1,0 +1,297 @@
+/* table style 
+rgb(5,35,84)
+*/
+
+th.qv-st-header-cell.ng-scope.ui-draggable.ui-draggable-handle.ui-draggable-disabled.qv-st-total-cell:last-child {
+    /* display: none; */
+    background: #fff !important;
+}
+
+
+/*
+total bottom
+*/
+
+.qv-st-bottom-header .qv-st-total-cell:last-child {
+    /* display: none; */
+    background: #fff !important;
+}
+
+.qv-st-header-cell:not(:last-child) .qv-st-value {
+    text-align: center !important;
+    font-size: 15px !important;
+}
+
+.qv-st-interactive:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search,
+.qv-st-navigatable:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header-sortable:not(.qv-st-custom-header) {
+    background: rgb(5, 35, 84) !important;
+    color: #fff !important;
+    font-size: 15px !important;
+}
+
+
+/*
+div .qv-st-header-wrapper tr:nth-child(2) {
+	background: #c9cacc !important;
+	color: #000000 !important;
+	font-size: 12px !important
+}
+*/
+
+div .qv-st-bottom-header tr {
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 12px !important
+}
+
+div .qv-object-table .qv-inner-object .qv-object-content-container .qv-grid-object-scroll-area table tr:nth-child(even) {
+    background: none !important;
+}
+
+div .qv-object-table .qv-inner-object .qv-object-content-container .qv-grid-object-scroll-area table tr:nth-child(odd) {
+    background: none !important;
+}
+
+
+/*
+div .qv-st-header-wrapper tr:nth-child(2) :hover {
+	background: #c9cacc !important;
+	color: #4b4b4b !important;
+}
+*/
+
+div .qv-st-bottom-header tr :hover {
+    background: #efece9 !important;
+    color: #000000 !important;
+}
+
+div table .qv-st-header-cell {
+    border: 1px solid black !important;
+}
+
+div table td.qv-st-data-cell {
+    border-left: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+
+div table td.qv-st-header-cell.qv-st-header-cell-search {
+    border-left: 1px solid black !important;
+    border-bottom: 1px solid black  !important;
+}
+
+
+/*
+div table th.qv-st-header-cell {
+	font-weight: bold;
+}
+div table th.qv-st-header-cell.qv-st-total-cell {
+	font-weight: bold;
+}
+div table .qv-st-data-cell.qv-st-data-cell-numeric .qv-st-value {
+	text-align: Center !important;
+}
+div table .qv-st-data-cell.qv-st-data-cell-dimension-value .qv-st-value {
+	text-align: Left !important;
+}
+div table .qv-st-data-cell .qv-st-value {
+	text-align: Center !important;
+}
+div table tr th .qv-st-value {
+	text-align: Center !important;
+}
+*/
+
+div table tr td.qv-st-data-cell {
+    color: black !important;
+    padding-left: 1px !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.4em !important;
+    font-size: 1.1em !important;
+}
+
+
+/* table style */
+
+
+/* pivot table */
+
+
+/*
+Filter pane 
+*/
+
+.qv-collapsed-listbox {
+    background-color: rgb(228, 171, 58) !important;
+}
+
+.qv-collapsed-listbox .title-wrapper .title {
+    color: #000 !important;
+}
+
+
+/*
+Filter pane 
+*/
+
+.qv-pt .cell.header.top {
+    color: #fff !important;
+    background: rgb(5, 35, 84);
+}
+
+.qv-object-pivot-table .qv-inner-object table tr[tid="header.row"]:nth-child(3) {
+    background: #75accc !important;
+    color: #fff !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table tr[tid="header.row"]:nth-child(3) :hover {
+    background: rgb(5, 35, 84) !important;
+    color: #fff !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table td.cell.numeric {
+    text-align: Center !important;
+}
+
+
+/*
+ .qv-object-pivot-table .qv-inner-object table td.cell.header {
+	text-align: undefined !important;
+}
+*/
+
+.qv-object-pivot-table .qv-inner-object table td.cell.data {
+    text-align: Center !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table .cell.null-value {
+    background-color: rgb(183, 183, 183) !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table tr th div {
+    font-size: 13px !important;
+    /*text-align: Center !important;*/
+}
+
+.qv-object-pivot-table .qv-inner-object table tr th div {
+    font-weight: bold !important;
+}
+
+
+/* pivot table */
+
+
+
+/* scrollbar */
+.scrollbar-track.horizontal .scrollbar-thumb {
+    bottom: 0;
+    height: 15px !important;
+}
+
+
+
+
+
+
+
+
+/* Border */
+
+
+.qv-st-header-cell {
+    font-size: 1em;
+    
+    line-height: 1.23076923;
+    color: inherit;
+    vertical-align: bottom;
+    /* border: 2px solid black; */
+	font-weight: bolder;
+    /* background-color: blanchedalmond; */
+    /* background-color: skyblue; */
+    /* background-color: rgb(194, 219, 229); */
+    text-align: left;
+    padding-top: .38461538em;
+    padding-bottom: .38461538em;
+    border-bottom: 1px solid black;
+    /* border-left: 1px solid black; */
+}
+/* .qv-st-data-cell { */
+    .qv-st-data-cell {
+    line-height: 1.23076923;
+    color: black;
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    padding-top: .23076923em;
+	padding-bottom: .23076923em;
+	/* border:  1px solid black; */
+	/* border-left:  2px solid black;
+	border-right:  2px solid black;
+	margin: 1px solid black; */
+	border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+.qv-pt .cell.header {
+    
+    /* background-color: skyblue !important; */
+    border-bottom: 1px solid black;
+    background-color: inherit;
+    overflow: hidden;
+}
+.qv-pt .cell.numeric {
+    border-top: 1px solid black;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.qv-pt .cell .value {
+    
+    border-left: .30769231em solid transparent;
+    border-right: .61538462em solid transparent;
+    max-height: 4.61538462em;
+    overflow: hidden;
+    cursor: default;
+    background-color: inherit;
+    text-align: right !important;
+}
+
+
+/* .qv-st-header-cell-search .lui-icon--search:before {
+    position: relative;
+	font-size: 12px;
+	visibility: hidden;
+} */
+table {
+	border-collapse: collapse;
+	border: 2px solid black;
+    border-spacing: 0;
+    width: 100%;
+}
+
+
+/* Border end */
+
+/* Header border solved */
+
+.qv-pt .cell.header.top {
+  
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.qv-pt .cell {
+    color: black;
+     border-bottom: 1px solid black; 
+     border-right: 1px solid black;
+    font-weight: 400;
+    line-height: 1.53846154;
+    background-color: inherit;
+}
+
+.qv-pt .cell.header.left {
+    border-right: 1px solid black;
+}

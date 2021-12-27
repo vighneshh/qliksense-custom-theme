@@ -1,0 +1,9 @@
+{
+    "_inherit": true,
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ]
+}
